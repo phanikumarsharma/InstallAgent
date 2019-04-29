@@ -1,9 +1,9 @@
 param( 
-    [parameter(Mandatory=$true)] 
+    [Parameter(Mandatory=$true)] 
     [ValidateNotNullOrEmpty()] 
     [string]$WorkSpaceID, 
  
-    [parameter(Mandatory=$true)] 
+    [Parameter(Mandatory=$true)] 
     [ValidateNotNullOrEmpty()] 
     [string]$WorkSpaceKey 
 ) 
